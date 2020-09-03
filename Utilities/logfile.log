@@ -23,3 +23,91 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2020-09-02 18:08:45,813 : INFO : test_e2e : Entering country name
 2020-09-02 18:08:51,226 : INFO : test_e2e : Text received from application is ×
 Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-09-03 01:59:25,672 : INFO : test_formSubmission : first name is Tasos
+2020-09-03 01:59:26,611 : INFO : test_formSubmission : first name is Angie
+2020-09-03 01:59:26,611 : INFO : test_formSubmission : first name is Angie
+2020-09-03 01:59:37,611 : INFO : test_e2e : Getting all the card titles
+2020-09-03 01:59:37,633 : INFO : test_e2e : iphone X
+2020-09-03 01:59:37,644 : INFO : test_e2e : Samsung Note 8
+2020-09-03 01:59:37,655 : INFO : test_e2e : Nokia Edge
+2020-09-03 01:59:37,666 : INFO : test_e2e : Blackberry
+2020-09-03 01:59:37,931 : INFO : test_e2e : Entering country name
+2020-09-03 01:59:43,354 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-09-03 02:02:36,628 : INFO : test_formSubmission : first name is Tasos
+2020-09-03 02:02:37,433 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:02:37,433 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:02:50,952 : INFO : test_e2e : Getting all the card titles
+2020-09-03 02:02:50,984 : INFO : test_e2e : iphone X
+2020-09-03 02:02:50,996 : INFO : test_e2e : Samsung Note 8
+2020-09-03 02:02:51,010 : INFO : test_e2e : Nokia Edge
+2020-09-03 02:02:51,024 : INFO : test_e2e : Blackberry
+2020-09-03 02:02:51,197 : INFO : test_e2e : Entering country name
+2020-09-03 02:02:56,649 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-09-03 02:09:56,112 : INFO : test_formSubmission : first name is Tasos
+2020-09-03 02:09:57,769 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:09:57,769 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:10:10,294 : INFO : test_e2e : Getting all the card titles
+2020-09-03 02:10:10,330 : INFO : test_e2e : iphone X
+2020-09-03 02:10:10,351 : INFO : test_e2e : Samsung Note 8
+2020-09-03 02:10:10,372 : INFO : test_e2e : Nokia Edge
+2020-09-03 02:10:10,394 : INFO : test_e2e : Blackberry
+2020-09-03 02:10:11,211 : INFO : test_e2e : Entering country name
+2020-09-03 02:10:17,275 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-09-03 02:17:13,034 : INFO : test_formSubmission : first name is Tasos
+2020-09-03 02:17:15,669 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:17:15,669 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:17:32,976 : INFO : test_e2e : Getting all the card titles
+2020-09-03 02:17:32,992 : INFO : test_e2e : iphone X
+2020-09-03 02:17:33,014 : INFO : test_e2e : Samsung Note 8
+2020-09-03 02:17:33,014 : INFO : test_e2e : Nokia Edge
+2020-09-03 02:17:33,014 : INFO : test_e2e : Blackberry
+2020-09-03 02:17:33,725 : INFO : test_e2e : Entering country name
+2020-09-03 02:17:39,729 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-09-03 02:18:20,719 : INFO : test_formSubmission : first name is Tasos
+2020-09-03 02:18:24,409 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:18:24,409 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:18:44,519 : INFO : test_e2e : Getting all the card titles
+2020-09-03 02:18:44,549 : INFO : test_e2e : iphone X
+2020-09-03 02:18:44,559 : INFO : test_e2e : Samsung Note 8
+2020-09-03 02:18:44,569 : INFO : test_e2e : Nokia Edge
+2020-09-03 02:18:44,579 : INFO : test_e2e : Blackberry
+2020-09-03 02:18:45,299 : INFO : test_e2e : Entering country name
+2020-09-03 02:18:51,269 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-09-03 02:29:34,497 : INFO : test_formSubmission : first name is Tasos
+2020-09-03 02:29:35,231 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:29:35,231 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:29:47,228 : INFO : test_e2e : Getting all the card titles
+2020-09-03 02:29:47,253 : INFO : test_e2e : iphone X
+2020-09-03 02:29:47,268 : INFO : test_e2e : Samsung Note 8
+2020-09-03 02:29:47,282 : INFO : test_e2e : Nokia Edge
+2020-09-03 02:29:47,293 : INFO : test_e2e : Blackberry
+2020-09-03 02:29:47,460 : INFO : test_e2e : Entering country name
+2020-09-03 02:29:52,952 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-09-03 02:31:58,713 : INFO : test_formSubmission : first name is Tasos
+2020-09-03 02:32:02,553 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:32:02,553 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:32:25,217 : INFO : test_e2e : Getting all the card titles
+2020-09-03 02:32:25,244 : INFO : test_e2e : iphone X
+2020-09-03 02:32:25,252 : INFO : test_e2e : Samsung Note 8
+2020-09-03 02:32:25,258 : INFO : test_e2e : Nokia Edge
+2020-09-03 02:32:25,264 : INFO : test_e2e : Blackberry
+2020-09-03 02:32:26,007 : INFO : test_e2e : Entering country name
+2020-09-03 02:32:32,000 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-09-03 02:34:06,823 : INFO : test_formSubmission : first name is Tasos
+2020-09-03 02:34:07,448 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:34:07,448 : INFO : test_formSubmission : first name is Angie
+2020-09-03 02:34:19,044 : INFO : test_e2e : Getting all the card titles
+2020-09-03 02:34:19,071 : INFO : test_e2e : iphone X
+2020-09-03 02:34:19,085 : INFO : test_e2e : Samsung Note 8
+2020-09-03 02:34:19,099 : INFO : test_e2e : Nokia Edge
+2020-09-03 02:34:19,110 : INFO : test_e2e : Blackberry
+2020-09-03 02:34:19,281 : INFO : test_e2e : Entering country name
+2020-09-03 02:34:24,655 : INFO : test_e2e : Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).

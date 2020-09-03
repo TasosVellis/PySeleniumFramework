@@ -36,6 +36,6 @@ class TestOne(BaseClass):
         successText = self.driver.find_element_by_class_name("alert-success").text
         log.info("Text received from application is "+successText)
 
-        assert "Success! Thankasdasdg you!" in successText
+        assert "Success! Thank you!" in successText
 
         self.driver.get_screenshot_as_file("screen.png")

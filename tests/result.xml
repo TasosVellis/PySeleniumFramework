@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="DESKTOP-0U799C5" name="pytest" skipped="0" tests="3" time="27.336" timestamp="2020-09-03T02:33:57.910065"><testcase classname="test_HomePage.TestHomePage" file="test_HomePage.py" line="11" name="test_formSubmission[getData0]" time="9.380"></testcase><testcase classname="test_HomePage.TestHomePage" file="test_HomePage.py" line="11" name="test_formSubmission[getData1]" time="0.668"></testcase><testcase classname="test_e2e.TestOne" file="test_e2e.py" line="14" name="test_e2e" time="16.652"><failure message="AssertionError: assert &apos;Success! Thankbxbfx you!&apos; in &apos;×\nSuccess! Thank you! Your order will be delivered in next few weeks :-).&apos;">self = &lt;tests.test_e2e.TestOne object at 0x000002621F16D850&gt;
+
+    def test_e2e(self):
+        log = self.getLogger()
+        homePage = HomePage(self.driver)
+        checkOutPage = homePage.shopItems()
+        log.info(&quot;Getting all the card titles&quot;)
+        cards = checkOutPage.getCardTitles()
+        i = -1
+        for card in cards:
+            i = i + 1
+            cardText = card.text
+            log.info(cardText)
+            if cardText == &quot;Blackberry&quot;:
+                checkOutPage.getCardFooter()[i].click()
+        self.driver.find_element_by_css_selector(&quot;a[class*=&apos;btn-primary&apos;]&quot;).click()
+        confirmpage = checkOutPage.checkOutItems()
+        log.info(&quot;Entering country name&quot;)
+        self.driver.find_element_by_id(&quot;country&quot;).send_keys(&quot;gre&quot;)
+        self.verifyLinkPresense(&quot;Greece&quot;)
+        self.driver.find_element_by_link_text(&quot;Greece&quot;).click()
+        self.driver.find_element_by_xpath(&quot;//div[@class=&apos;checkbox checkbox-primary&apos;]&quot;).click()
+        self.driver.find_element_by_css_selector(&quot;[value=&apos;Purchase&apos;]&quot;).click()
+        successText = self.driver.find_element_by_class_name(&quot;alert-success&quot;).text
+        log.info(&quot;Text received from application is &quot;+successText)
+    
+&gt;       assert &quot;Success! Thankbxbfx you!&quot; in successText
+E       AssertionError: assert &apos;Success! Thankbxbfx you!&apos; in &apos;×\nSuccess! Thank you! Your order will be delivered in next few weeks :-).&apos;
+
+test_e2e.py:39: AssertionError</failure></testcase></testsuite></testsuites>
