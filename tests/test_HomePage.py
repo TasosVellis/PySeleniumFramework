@@ -1,7 +1,4 @@
 import pytest
-from selenium import webdriver
-from selenium.webdriver.support.select import Select
-
 from PageObjects.HomePage import HomePage
 from TestData.HomePageData import HomePageData
 from Utilities.BaseClass import BaseClass
@@ -24,6 +21,6 @@ class TestHomePage(BaseClass):
         assert ("Success" in alertText)
         self.driver.refresh()
 
-    @pytest.fixture(params=HomePageData.test_HomePage_data)
+    @pytest.fixture(params=HomePageData.getTestData("Testcase2"))
     def getData(self, request):
         return request.param
